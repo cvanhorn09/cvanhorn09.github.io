@@ -238,7 +238,18 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   main .site-greeting-prompt {
-    font-size: 3rem; } }
+    font-size: 3rem; } 
+  .profile-img {
+        position: absolute;
+        width: 175px;
+        height: 219px;
+        background: url("../img/cv-profile.png");
+        border-radius: 20%;
+        border: solid 3px #32b5dd;
+        top: 10%;
+  }
+  }
+
 
 @media screen and (max-width: 768px) {
   main {
@@ -246,6 +257,7 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
+      font-size: 3rem;
       margin-bottom: 1rem; }
     main .site-greeting-prompt {
       font-size: 2rem; }
@@ -270,9 +282,29 @@ main {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; } }
+  .profile-img {
+        position: absolute;
+        width: 175px;
+        height: 219px;
+        background: url("../img/cv-profile.png");
+        border-radius: 20%;
+        border: solid 3px #32b5dd;
+        top: 10%;
+  }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
   main .site-greeting-prompt {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; } 
+  .profile-img {
+        position: absolute;
+        width: 87px;
+        height: 109px;
+        background: url("../img/cv-profile.png");
+        border-radius: 20%;
+        border: solid 3px #32b5dd;
+        top: 12%;
+        left: 10px;
+  }
+  }
